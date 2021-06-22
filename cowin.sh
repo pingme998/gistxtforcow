@@ -1,5 +1,6 @@
 #!/bin/bash
-while:
+
+while :
 do
       curl 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin?pincode=695304&date=24-06-2021' >f.txt
       grep -o '695304' f.txt >f2.txt
