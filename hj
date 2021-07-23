@@ -1,0 +1,8 @@
+curl 'https://pastebin.com/' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'Origin: https://pastebin.com' \
+  -H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryhIoGcH3jj10ihhxN' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'Referer: https://pastebin.com/' \
+  --data-raw $'------WebKitFormBoundaryhIoGcH3jj10ihhxN\r\nContent-Disposition: form-data; name="_csrf-frontend"\r\n\r\nyz7PsN8297f2YVyuyc5MC7fAWYduThnyilgIvyV6cyeUZ6rzhW6u764iC9aFgQQ6x44Nsz8XQ4byOUDlHRQZZg==\r\n------WebKitFormBoundaryhIoGcH3jj10ihhxN\r\nContent-Disposition: form-data; name="PostForm[text]"\r\n\r\nhhgj\r\n------WebKitFormBoundaryhIoGcH3jj10ihhxN\r\nContent-Disposition: form-data; name="PostForm[format]"\r\n\r\n1\r\n------WebKitFormBoundaryhIoGcH3jj10ihhxN\r\nContent-Disposition: form-data; name="PostForm[expiration]"\r\n\r\nN\r\n------WebKitFormBoundaryhIoGcH3jj10ihhxN\r\nContent-Disposition: form-data; name="PostForm[status]"\r\n\r\n1\r\n------WebKitFormBoundaryhIoGcH3jj10ihhxN\r\nContent-Disposition: form-data; name="PostForm[is_password_enabled]"\r\n\r\n0\r\n------WebKitFormBoundaryhIoGcH3jj10ihhxN\r\nContent-Disposition: form-data; name="PostForm[is_burn]"\r\n\r\n0\r\n------WebKitFormBoundaryhIoGcH3jj10ihhxN\r\nContent-Disposition: form-data; name="PostForm[name]"\r\n\r\nsundaran\r\n------WebKitFormBoundaryhIoGcH3jj10ihhxN--\r\n' \
+  --compressed
